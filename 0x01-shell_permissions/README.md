@@ -1,0 +1,1 @@
+This file creates a script that switches the current user to the user betty. Some of the condtions are:  \n You should use exactly 8 characters for your command (plus one character for the new line  \n You can assume that te user betty will exist when we will run your script
