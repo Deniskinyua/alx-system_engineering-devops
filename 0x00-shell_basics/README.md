@@ -18,7 +18,7 @@
 >> 4-listmorefiles
 5. Task 5: I Love Numbers
 > Display current directory contents.
-- long format
-- with user and group IDs displayed numerically
-- And hidden files (starting with .)
+>> long format
+>> with user and group IDs displayed numerically
+>> And hidden files (starting with .)
 >> 5-listfilesdigitonly
