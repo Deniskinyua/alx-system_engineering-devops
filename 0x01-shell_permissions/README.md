@@ -20,3 +20,19 @@
 1. Task 1: Who AM I
 > Write a script that prints the effective username of the current user.
 >> 1-who_am_i
+
+2. Groups
+> Write a script that prints all the groups the current user is part of.
+>> 2-groups
+
+3. New Owner
+> Write a script that changes the owner of the file hello to the user betty.
+>> 3-new_owner
+
+4. Empty!
+> Write a script that creates an empty file called hello.
+>> 4-empty
+
+5. Execute
+> Write a script that adds execute permission to the owner of the file hello.
+>> The file hello will be in the working directory
