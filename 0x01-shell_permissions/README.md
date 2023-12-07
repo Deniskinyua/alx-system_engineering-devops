@@ -68,3 +68,29 @@
 11. Directories
 > Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 >> 11-directories_permissions
+
+12. More Directories
+> Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+>> 12-directory_permissions
+
+13. Change Group
+> Write a script that changes the group owner to school for the file hello (The file hello will be in the working directory)
+>> 13-change_group
+
+14. Owner and Group
+> Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+>> 100-change_owner_and_group
+
+15. Symbolic Links
+> Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+- The file _hello is in the working directory
+- The file _hello is a symbolic link
+>> 101-symbolic_link_permissions
+
+16. If Only
+> Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.(The file hello will be in the working directory)
+>> 102-if_only
+
+17. Star Wars
+> Write a script that will play the StarWars IV episode in the terminal.
+>> 103-Star_Wars
