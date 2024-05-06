@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+x=0
+while [ $x -lt 10 ]
+do
+echo "Best School"
+((x++))
+done
