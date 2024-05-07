@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Display Best School 10 times
+# MUST use until loop (for and while are forbidden)
+
+x=10
+until [ $x -lt -1 ]
+do
+    echo "Best School"
+    ((--x))
+done
