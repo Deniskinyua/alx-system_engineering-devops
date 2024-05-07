@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+: ' Loops from 1-10
+ -> bad luck for 4th iteration
+ -> good luck for 8th iteration
+ -> Best School for other iterations
+
+MUST use the while loop (for & until are forbidden)
+MUST use if, elif & else
+'
+
+cnt=1
+while [ $cnt -lt 11 ]
+do
+    if [ $cnt = 4 ]
+    then
+        echo "bad luck"
+    elif [ $cnt = 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((cnt++))
+done
