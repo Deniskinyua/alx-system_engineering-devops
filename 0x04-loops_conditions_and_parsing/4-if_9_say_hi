@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Bash script displaying 'Best School' 10 times
+# 9th iteration -> display 'Best School' then 'Hi' on a new line
+# MUST use while loop (for and until are forbidden)
+# MUST use if
+
+cnt=0
+
+while [ $cnt -lt 11 ]
+do 
+    if [ $cnt = 9 ]
+    then 
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    ((cnt++))
+done
