@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-: ' Loops from 1-10
- -> bad luck for 4th iteration
- -> good luck for 8th iteration
- -> Best School for other iterations
-
-MUST use the while loop (for & until are forbidden)
-MUST use if, elif & else
-'
+# Loops from 1-10
+# -> bad luck for 4th iteration
+# -> good luck for 8th iteration
+# -> Best School for other iterations
+# MUST use the while loop (for & until are forbidden)
+# MUST use if, elif & else
 
 cnt=1
 while [ $cnt -lt 11 ]
