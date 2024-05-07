@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 x=0
 while [ $x -lt 10 ]
 do
