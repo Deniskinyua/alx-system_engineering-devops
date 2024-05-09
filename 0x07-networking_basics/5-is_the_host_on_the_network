@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Pings an IP address passed as an arguement
+# Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+# Ping the IP 5 times
+
+IP="${1}"
+
+fn=$(basename "${BASH_SOURCE[@]}")
+
+if ! [ "$IP" ]; then
+	echo "Usage: ${fn} {IP_ADDRESS}"
+else
+	ping -c 5 "${IP}"
+fi
